@@ -12,6 +12,7 @@ alias stow='stow -t ~/'
 alias ls='eza -l'
 alias ll='eza -la'
 alias ip='ip -c'
+alias vim='nvim'
 
 alias cp='cp -v'
 alias mv='mv -v'
