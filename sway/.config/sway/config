@@ -73,9 +73,9 @@ input type:pointer {
 # Basics:
 #
     # Take screenshot
-    bindsym Print exec sway-screenshot -m region --clipboard-only
-    bindsym $mod+Shift+s exec sway-screenshot -m region --clipboard-only
-    # Start a terminal
+    bindsym Print exec slurp | grim -g - - | wl-copy
+    bindsym $mod+Shift+s exec slurp | grim -g - - | wl-copy
+        # Start a terminal
     bindsym $mod+Return exec $term
 
     # Start browser
