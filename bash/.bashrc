@@ -19,4 +19,6 @@ alias mv='mv -v'
 alias rm='rm -v'
 alias mkdir='mkdir -pv'
 alias rmdir='rmdir -v'
+
+PATH="$PATH:$HOME/.local/bin"
 PS1='[\u@\h \W]\$ '
