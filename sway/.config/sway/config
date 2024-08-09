@@ -22,6 +22,15 @@ set $menu dmenu_path | wmenu | xargs swaymsg exec --
 # Define browser command
 set $browser librewolf
 
+
+# Startup applications
+#
+# Run ollama server for local llm stuff
+exec ollama serve
+
+
+
+
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
