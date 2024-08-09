@@ -28,6 +28,9 @@ set $browser librewolf
 # Run ollama server for local llm stuff
 exec ollama serve
 
+# Run fnott notification daemon
+exec fnott
+
 
 
 
