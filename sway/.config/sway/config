@@ -22,6 +22,9 @@ set $menu dmenu_path | wmenu | xargs swaymsg exec --
 # Define browser command
 set $browser librewolf
 
+# Define the preferred cursor theme
+set $cursor Bibata-Modern-Classic
+
 
 # Startup applications
 #
@@ -30,6 +33,9 @@ exec ollama serve
 
 # Run fnott notification daemon
 exec fnott
+
+# Set desired cursor theme
+seat seat0 xcursor_theme $cursor
 
 
 
