@@ -5,6 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# General aliases
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias nano='nano -i'
@@ -13,7 +14,10 @@ alias ls='eza -l --icons'
 alias ll='eza -la --icons'
 alias ip='ip -c'
 alias vim='nvim'
+alias cat='bat'
+alias grep='rg'
 
+# Directory management alaiases
 alias cp='cp -v'
 alias mv='mv -v'
 alias rm='rm -v'
