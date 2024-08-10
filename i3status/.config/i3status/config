@@ -28,6 +28,7 @@ disk "/" {
 
 load {
         format = "%1min"
+        max_threshold = "12.0"
 }
 
 memory {
