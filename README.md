@@ -8,6 +8,7 @@ This whole thing depends on stow for symlinking the config files
 
 ### Dependencies
 
+- stow (of course)
 - sway
 - [sway-screenshot](https://github.com/Gustash/sway-screenshot)
 - foot
