@@ -28,7 +28,8 @@ disk "/" {
 
 load {
         format = "%1min"
-        max_threshold = "12.0"
+        max_threshold = 12
+        format_above_threshold = "High load: %1min"
 }
 
 memory {
@@ -38,5 +39,5 @@ memory {
 }
 
 tztime local {
-        format = "%Y-%m-%d %H:%M:%S"
+        format = "%d-%m-%Y %H:%M:%S"
 }
