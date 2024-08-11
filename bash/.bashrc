@@ -16,6 +16,7 @@ alias ip='ip -c'
 alias vim='nvim'
 alias cat='bat'
 alias grep='rg'
+alias sxiv='nsxiv'
 
 # Directory management alaiases
 alias cp='cp -v'
