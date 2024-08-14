@@ -27,3 +27,6 @@ alias rmdir='rmdir -v'
 
 PATH="$PATH:/home/sencyy/.local/bin"
 PS1='[\u@\h \W]\$ '
+
+# Cowsay fortune lolcat
+fortune | cowsay | lolcat
