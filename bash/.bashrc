@@ -27,7 +27,6 @@ alias rmdir='rmdir -v'
 
 PATH="$PATH:/home/sencyy/.local/bin"
 PS1='[\u@\h \W]\$ '
-eval -- "$(/sbin/starship init bash --print-full-init)"
 
 # Cowsay fortune lolcat
 fortune | cowsay | lolcat
