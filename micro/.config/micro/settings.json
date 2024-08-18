@@ -1,0 +1,6 @@
+{
+    "lsp.autocompleteDetails": true,
+    "lsp.server": "rust=rust-analyzer",
+    "lsp.tabcompletion": true,
+    "lsp.formatOnSave": true
+}
