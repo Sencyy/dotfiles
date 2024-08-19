@@ -1,6 +1,8 @@
 {
     "lsp.autocompleteDetails": true,
-    "lsp.server": "rust=rust-analyzer",
-    "lsp.tabcompletion": true,
-    "lsp.formatOnSave": true
+    "lsp.formatOnSave": true,
+    "lsp.ignoreMessages": "LS message1 to ignore|LS message 2 to ignore|...",
+    "lsp.ignoreTriggerCharacters": "completion,signature",
+    "lsp.server": "rust=rust-analyzer,cpp=ccls",
+    "lsp.tabcompletion": true
 }
