@@ -17,6 +17,7 @@ alias vim='nvim'
 alias cat='bat'
 alias grep='rg'
 alias sxiv='nsxiv'
+alias mcr='micro'
 
 # Directory management alaiases
 alias cp='cp -v'
