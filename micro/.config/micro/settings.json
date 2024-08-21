@@ -3,6 +3,6 @@
     "lsp.formatOnSave": true,
     "lsp.ignoreMessages": "LS message1 to ignore|LS message 2 to ignore|...",
     "lsp.ignoreTriggerCharacters": "completion,signature",
-    "lsp.server": "rust=rust-analyzer,c++=ccls",
+    "lsp.server": "rust=rust-analyzer,c++=clangd",
     "lsp.tabcompletion": true
 }
