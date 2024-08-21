@@ -91,6 +91,10 @@ input type:pointer {
     # Start a terminal
     bindsym $mod+Return exec $term
 
+    # Start Emacs
+
+    bindsym $mod+e exec emacs
+
     # Start browser
     bindsym $mod+Shift+Return exec $browser
 
