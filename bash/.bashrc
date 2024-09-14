@@ -26,6 +26,11 @@ alias rm='rm -v'
 alias mkdir='mkdir -pv'
 alias rmdir='rmdir -v'
 
+
+# Game aliases
+alias msc='gamemoderun wine ~/games/My\ Summer\ Car/mysummercar.exe'
+
+
 PATH="$PATH:/home/sencyy/.local/bin"
 PS1='[\u@\h \W]\$ '
 
