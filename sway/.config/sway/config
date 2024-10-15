@@ -44,13 +44,16 @@ exec lxsession
 # Set desired cursor theme
 seat seat0 xcursor_theme $cursor
 
+# Adding gaps to windows
+smart_gaps on
+gaps inner 10
 
 
 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/sencyy/img/wall/wall2.png fill
+output * bg /home/sencyy/img/wall/wall4.png fill
 
 #
 # Example configuration:
@@ -248,6 +251,7 @@ bar {
         statusline #ffffff
         background #000000
         inactive_workspace #000000 #000000 #5c5c5c
+        active_workspace #ffe9fe #ffb5cc #ffffff
     }
 }
 
